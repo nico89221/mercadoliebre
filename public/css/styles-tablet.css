@@ -1,0 +1,158 @@
+@media (min-width: 720px){
+
+    
+
+    .header{
+
+        display: inline-flex;
+        width: 100%;
+        
+        
+        
+    }
+
+    .nav-01{
+
+        display: inline;
+        
+        
+        
+    }
+
+    .nav-02{
+
+        display: inline;
+        
+        
+    }
+
+    
+    .nav-01 ul
+    {   
+    padding-left: 10px;
+    width: 100%;
+    margin: 0;
+    
+    
+    }
+
+    .nav-01 ul li
+    {  
+        list-style: none;
+        display: inline;
+        
+        
+    }
+
+    .nav-01 ul li a
+    {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        padding:5px;
+        
+
+    }
+
+    .nav-02 ul li a
+    {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        padding:5px;
+        
+    }
+
+    .nav-02 ul li
+    {  
+        list-style: none;
+        display: inline;
+    }
+
+    .nav-02 ul
+    {
+        padding-left: 10px;
+        margin: 0;
+        display: flex;
+        justify-content:flex-end;
+        
+    }
+
+    .burger-menu{
+
+        display: none;
+    }
+
+    .header .wrap-header{
+
+        width: 33%;
+        align-self: center;
+        
+    
+        
+    }
+
+
+
+    .cont-nav{
+
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        
+        
+
+    }
+
+    .cont-nav .wrap-nav{
+
+        width: 50%;
+        padding: 10px;
+        
+        
+    }
+
+
+    .header .wrap-header h1{
+
+        text-align: center;
+        
+    }
+
+        .contenedor{
+
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        
+        .wrap
+        {
+            width: 50%;
+            padding: 10px;
+            
+            
+            
+        }
+
+        #compra{
+            
+            margin: 0;
+            width: 100%;
+            align-self: center;
+            
+        }
+        .cont-compra{
+            display:inline-flex;
+            flex-wrap: wrap;
+            width: 32%;
+            
+        }
+
+        .main-register{
+
+            padding-left: 10vw;
+            padding-right: 10vw;
+        }
+
+}

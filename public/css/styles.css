@@ -1,0 +1,433 @@
+*
+{
+    box-sizing: border-box;
+}
+
+/*Inicio de Css Home*/
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.banner{
+    background-color:#ebebeb ;
+}
+
+.cont-compra{
+
+    order: 4;
+    width: 100%;
+}
+
+.buscar{
+
+    align-self: center;
+}
+
+
+.header .wrap-header{
+
+    width: 50%;
+    align-self: center;
+    
+}
+
+
+.header .wrap-header h1{
+
+    text-align: center;
+    
+}
+
+
+
+.header .wrap-header input{
+
+    color: #666;
+    width: 80%;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    
+}
+
+
+.header .wrap-header  i{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border: solid 1px white;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #666;
+
+}
+
+.header .wrap-header .fas{
+
+    padding: 8px;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color:#ebebeb ;
+}
+
+
+#compra i
+{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding-left: 0px;
+    background-color:#EAC926 ;
+    
+
+}
+#compra{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.nav-01{
+
+    display: none;
+}
+
+.nav-02{
+
+    display: none;
+}
+
+
+.burger-menu
+{
+    
+    background-color: #1259c3;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    height: 35px;
+    width: 35px;
+    margin-left:45vw ;
+    margin-right: 47vw;
+    border: solid 1px #1259c3;
+    border-radius: 5px;
+}
+
+.pad{
+
+    padding: 10px;
+}
+
+main{
+
+    padding-left: 5vw;
+    padding-right: 5vw;
+    
+    
+ 
+}
+
+.contenedor .wrap .descrip {
+
+    display: none;
+}
+
+
+
+main i{
+    font-size: 1.2em;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    -moz-border-radius: 50px;
+    -webkit-border-radius:50px;
+    border-radius: 50%;
+    padding: 5px;
+    position:absolute;
+    right: 20px;
+    top: -15px;
+}
+.descuento{
+    color: #39b54a;
+    font-size: 16px;
+    margin-top: 10px;
+    
+    
+}
+
+.precio{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+main article div{
+
+    border-top: solid 1px #ebebeb ;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    
+
+}
+
+main article div .precio{
+    width: 30%;
+}
+
+main article div .descuento
+{
+    width: 70%;
+}
+
+main article{
+    background-color: white;
+    width: 100%;
+   
+    
+}
+
+.contenedor{
+
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.wrap
+{
+    width: 100%;
+    
+    
+}
+
+
+h2{
+    margin: 0;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+h3
+{
+    font-size: 18px;
+}
+h4{
+    font-size: 16px;
+}
+
+/*Fin de Css Home*/
+
+/*Inicio de Css de register*/
+
+.formu-cont{
+
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.wrap-form{
+
+    width: 100%;
+    
+    padding: 10px;
+    align-self: flex-start;
+    
+
+    
+}
+
+.wrap-form input{
+
+    width: 100%;
+    border:solid 1px white;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    
+
+}
+
+.formu-cont h3{
+
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.categoria{
+
+    padding-left: 10px;
+    
+}
+
+.categoria .cat-nombre{
+
+    padding: 10px;
+
+    
+}
+
+.categoria .cat-nombre label{
+
+    padding-left: 20px;
+    padding-bottom: 2px;
+}
+
+select{
+    
+    border:solid 1px white;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+.foto input{
+
+    background-color: #ebebeb;
+    border: none;
+}
+
+.button{
+
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.button .b-enviar{
+
+    width: 7%;
+    padding: 6px;
+    font-size: 18px;
+    background-color: #1259c3;
+    color: white;
+    border:solid 1px #1259c3;
+    border-radius: 10px;
+    
+}
+
+.button .b-borrar{
+
+    width: 7%;
+    padding: 6px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border:solid 1px red;
+    border-radius: 10px;
+
+
+}
+
+
+/*Fin de Css de register*/
+
+/*Inicio de Css login*/
+
+.main-login{
+
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.login-cont{
+
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10vw;
+
+}
+
+.wrap-login{
+
+    width: 100%;
+    padding: 20px;
+    align-self: flex-start;
+
+}
+
+.wrap-login input{
+
+    width: 100%;
+    border:solid 1px white;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    padding-left: 10px;
+    text-align: justify;
+    
+
+}
+.b-ingresar{
+
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #1259c3;
+    color: white;
+    border:solid 1px #1259c3;
+    border-radius: 10px;
+
+
+}
+
+
+
+
+/*Fin de Css de Login*/
+
+/*Inicio de Css footer*/
+footer{
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    padding: 36px;
+    background-color: white;
+}
+footer i
+{
+    font-size: 2em;
+    color:#1259c3;
+}
+
+footer h3{
+    margin: 0px;
+}
+footer p{
+    margin-top: 0px;
+}
+
+footer i{
+    margin-bottom: 10px;
+}
+/*Fin de Css footer*/
+
+
+
+
+
