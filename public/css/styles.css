@@ -319,8 +319,7 @@ select{
 
 .button .b-enviar{
 
-    width: 7%;
-    padding: 6px;
+    padding: 10px;
     font-size: 18px;
     background-color: #1259c3;
     color: white;
@@ -331,8 +330,8 @@ select{
 
 .button .b-borrar{
 
-    width: 7%;
-    padding: 6px;
+    
+    padding: 10px;
     font-size: 18px;
     background-color: red;
     color: white;
