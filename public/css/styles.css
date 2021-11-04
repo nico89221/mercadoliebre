@@ -357,14 +357,17 @@ select{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    padding: 10vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 30px;
 
 }
 
 .wrap-login{
 
     width: 100%;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     align-self: flex-start;
 
 }
